@@ -1,4 +1,4 @@
-FROM php:8.4-apache
+FROM php:8.4.1-apache
 
 # 1. Install ekstensi sistem & driver PostgreSQL
 RUN apt-get update && apt-get install -y \
